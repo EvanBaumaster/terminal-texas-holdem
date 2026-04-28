@@ -22,13 +22,13 @@ Create and activate a virtual environment (recommended):
 'source venv/bin/activate' , On Windows, use `venv\Scripts\activate`
 Install the required dependencies (used for terminal formatting):
 
-Bash
-pip install -r requirements.txt
-Usage
+'Bash'
+'pip install -r requirements.txt'
+'Usage'
 To start a standard game, simply run the main Python script from your terminal. By default, this will launch a table with 3 AI opponents and a starting stack of 1000 chips for all players.
 
-Bash
-python poker.py
+'Bash'
+'python poker.py'
 Expected Output:
 The terminal will clear and display the initial game state, showing your two hole cards, your current chip count, the current pot size, and prompt you for your first action (Fold, Call, or Raise).
 
