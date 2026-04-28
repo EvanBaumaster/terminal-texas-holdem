@@ -9,17 +9,17 @@ To run this application, you will need Python 3.8 or higher installed on your sy
 
 Clone this repository to your local machine:
 
-Bash
-git clone https://github.com/yourusername/terminal-texas-holdem.git
+'Bash'
+'git clone https://github.com/yourusername/terminal-texas-holdem.git'
 Navigate into the project directory:
 
-Bash
-cd terminal-texas-holdem
+'Bash'
+'cd terminal-texas-holdem'
 Create and activate a virtual environment (recommended):
 
-Bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+'Bash'
+'python -m venv venv'
+'source venv/bin/activate' , On Windows, use `venv\Scripts\activate`
 Install the required dependencies (used for terminal formatting):
 
 Bash
