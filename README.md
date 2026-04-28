@@ -54,3 +54,36 @@ The current AI opponents rely on basic probability thresholds and random number 
 
 ### Future Ideas: 
 In the future, I plan to implement a save-state feature so users can pause and resume tournaments. I would also like to add local network multiplayer support using Python's socket library so friends can play against each other from different terminals.
+
+
+# Project Instructions
+Minimum requirements
+Your project must meet all of the following requirements to receive full credit.
+
+## 1. GitHub repository
+Your project must live in a public GitHub repository that you created for this project (not a fork of a course repo). The repo must show a meaningful commit history — commit early and often throughout development.
+
+## 2. README
+Your README.md must be thorough and written for someone who has never seen your project. At minimum it must include:
+
+What it does — a clear, one- to two-paragraph description of your tool and the problem it solves
+Installation — step-by-step instructions for installing dependencies and/or building the project
+Usage — how to run the program, with concrete command examples and expected output
+Examples — at least two or three realistic usage examples showing different features or flags
+Known limitations or future ideas (optional but encouraged)
+## 3. Tests
+Your project must include a meaningful test suite:
+
+Python: use pytest with at least five tests covering core logic
+Rust: use Rust’s built-in #[test] framework with at least five tests covering core logic
+Tests should cover real behavior — not just that the program runs, but that it produces correct output for known inputs. Edge cases and error handling are fair game.
+
+## 4. CI/CD pipeline
+Your repository must include a GitHub Actions workflow (.github/workflows/) that automatically runs your test suite on every push to main. The workflow should:
+
+Install dependencies (if any)
+Build the project (Rust only)
+Run all tests
+Pass cleanly on your final submission
+## 5. AGENTS.md
+Include an AGENTS.md file in the root of your repository documenting how you used AI tools during development. This is not a formality — write honestly about where AI helped, where it steered you wrong, and what you learned from the collaboration.
