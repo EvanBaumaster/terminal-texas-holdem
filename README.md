@@ -33,22 +33,24 @@ Expected Output:
 The terminal will clear and display the initial game state, showing your two hole cards, your current chip count, the current pot size, and prompt you for your first action (Fold, Call, or Raise).
 
 ## Examples
-1. Standard Game (Default)
+### 1. Standard Game (Default)
 Launch a standard 4-player game with default chip stacks.
 
 Bash
 python poker.py
-2. Customizing the Table
+### 2. Customizing the Table
 You can adjust the number of AI opponents and the starting chip stack using command-line flags. This example starts a massive 9-player table with 5,000 starting chips.
 
 Bash
 python poker.py --opponents 8 --chips 5000
-3. Turbo Mode
+### 3. Turbo Mode
 If you want to skip the artificial delays between AI betting actions and deal animations, you can use the --fast flag to speed up gameplay.
 
 Bash
 python poker.py --fast
 ## Known limitations and future ideas
-Limitations: The current AI opponents rely on basic probability thresholds and random number generation rather than advanced machine learning, making them somewhat predictable in long sessions. The application also only supports standard No-Limit rules, with no support for Pot-Limit or Limit variations.
+### Limitations: 
+The current AI opponents rely on basic probability thresholds and random number generation rather than advanced machine learning, making them somewhat predictable in long sessions. The application also only supports standard No-Limit rules, with no support for Pot-Limit or Limit variations.
 
-Future Ideas: In the future, I plan to implement a save-state feature so users can pause and resume tournaments. I would also like to add local network multiplayer support using Python's socket library so friends can play against each other from different terminals.
+### Future Ideas: 
+In the future, I plan to implement a save-state feature so users can pause and resume tournaments. I would also like to add local network multiplayer support using Python's socket library so friends can play against each other from different terminals.
